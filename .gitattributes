@@ -1,0 +1,23 @@
+# Control de finales de línea
+* text=auto
+
+# Forzar finales de línea LF para todos los archivos de código
+*.php text eol=lf
+*.js  text eol=lf
+*.ts  text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md  text eol=lf
+*.sh  text eol=lf
+
+# Binarios: no tocar
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
