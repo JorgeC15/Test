@@ -1,0 +1,28 @@
+# 🌐 Archivos comunes
+*.log
+.env
+.DS_Store
+.qodo
+
+# ⚙️ Dependencias
+node_modules/
+vendor/
+
+# 🛠 Laravel (Backend)
+Backend_plantilla/vendor/
+Backend_plantilla/storage/
+Backend_plantilla/bootstrap/cache/
+Backend_plantilla/.env
+Backend_plantilla/.phpunit.result.cache
+Backend_plantilla/public/storage
+Backend_plantilla/.idea/             # Si usas PHPStorm
+Backend_plantilla/.vscode/           # Configs de VS Code
+
+# ⚛️ React (Frontend)
+Frontend_plantilla/node_modules/
+Frontend_plantilla/dist/
+Frontend_plantilla/.env
+Frontend_plantilla/.next/
+Frontend_plantilla/.vite/
+Frontend_plantilla/.vscode/
+Frontend_plantilla/coverage/
