@@ -59,7 +59,7 @@ const SuscribersForm: React.FC<SuscribersFormProps> = ({ onSubmit }) => {
         />
         Activo
       </label>
-      <button type="submit">Agregar Suscriptor</button>
+      <button type="submit">Agregarr</button>
     </form>
   );
 };
