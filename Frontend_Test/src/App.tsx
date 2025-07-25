@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import SuscribersForm from './Components/Forms_suscribers';
+import Head from './Layout/Head';
+import Footer from './Layout/Footer';
 
 // Define la interfaz
 interface Suscriber {
@@ -42,6 +44,7 @@ function App() {
 
     return(
       <div>
+      <Head />
       <SuscribersForm onSubmit={handleAddSuscriber} />
       <ul>
         {suscribers.map((s) => (
@@ -50,6 +53,7 @@ function App() {
           </li>
         ))}
       </ul>
+      <Footer />
     </div>
     )
   }

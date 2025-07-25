@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// Definición de la interfaz para los suscriptores
+
 export interface Suscriber { 
   id: number;
   name: string;
